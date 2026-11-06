@@ -1,0 +1,31 @@
+{
+  "name": "freight-exceptions",
+  "version": "0.0.0",
+  "description": "Open-source tool: deterministic shipment exception rules for small freight brokers and 3PLs. AI only extracts and drafts; humans approve.",
+  "license": "MIT",
+  "author": "Arsalan Arshad",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --import tsx --test \"src/**/*.test.ts\" \"test/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "next": "^16.4.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
